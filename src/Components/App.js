@@ -54,6 +54,8 @@ function App() {
             <>
             <p>No idea what to eat? We got you! Our Menu (and Price!) is random every time. Feeling lucky?</p>
             <break></break>
+            <p className="text-center"> HOURS - Random!</p>
+            <p className="text-center">348 E Main St. Lexington, KY</p>
                 {/* <button onClick={loadMenu}>What's For Dinner?</button> */}
                 <div className="row">
                     {menuArrayData.map((item, index) => {
